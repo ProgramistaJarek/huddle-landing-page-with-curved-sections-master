@@ -1,0 +1,28 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-Poppins;
+}
+
+body {
+  font-family: $font-OpenSans;
+}
+
+img {
+  width: 100%;
+}
+
+
+.btn {
+  text-decoration: none;
+  background-color: $pink;
+  padding: 1rem 2.5rem;
+  border-radius: 3rem;
+  color: white;
+  font-size: $font-size;
+  font-weight: $font-600;
+  border: none;
+}

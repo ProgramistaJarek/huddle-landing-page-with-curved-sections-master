@@ -1,0 +1,252 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: #ff52bf;
+  padding: 1rem 2.5rem;
+  border-radius: 3rem;
+  color: white;
+  font-size: 0.95rem;
+  font-weight: 600;
+  border: none;
+}
+
+header {
+  margin: 0 1.5rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 0;
+}
+nav img {
+  width: 7.5rem;
+}
+nav a {
+  text-decoration: none;
+  color: #ff52bf;
+  border: 1px solid #ff52bf;
+  padding: 0.25rem 1rem;
+  border-radius: 3rem;
+  cursor: pointer;
+}
+
+.header {
+  text-align: center;
+  margin-top: 5rem;
+}
+.header h1 {
+  font-size: 1.5rem;
+}
+.header p {
+  font-size: 0.95rem;
+  margin: 1.5rem 0 5rem;
+  font-weight: 600;
+}
+.header img {
+  margin-top: 5rem;
+}
+
+.numbers {
+  margin: 0 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.number-card {
+  width: 10rem;
+  margin-top: 6rem;
+  position: relative;
+}
+.number-card h2 {
+  font-size: 3rem;
+}
+.number-card p {
+  font-size: 0.95rem;
+  text-align: center;
+}
+.number-card::before {
+  content: "";
+  background-image: url("/images/icon-communities.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  top: -2rem;
+}
+.number-card:last-child::before {
+  background-image: url("/images/icon-messages.svg");
+}
+
+.test {
+  padding: 4rem 1.5rem;
+  background-color: #f5faff;
+}
+
+.container {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container p {
+  font-size: 0.95rem;
+  margin-top: 1.5rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+.flowing-conversation {
+  background-color: white;
+}
+
+.your-users {
+  padding-top: 2rem;
+}
+
+.bg-top-grow-together {
+  background-image: url("/images/bg-section-top-mobile-1.svg");
+  height: 7rem;
+  margin-top: 5rem;
+}
+
+.bg-bottom-grow-together {
+  background-image: url("/images/bg-section-bottom-mobile-1.svg");
+  height: 3.25rem;
+}
+
+.bg-top-your-users {
+  background-image: url("/images/bg-section-top-mobile-2.svg");
+  height: 6.4375rem;
+  margin-top: 2.5rem;
+}
+
+.bg-bottom-your-users {
+  background-image: url("/images/bg-section-bottom-mobile-2.svg");
+  height: 6.3125rem;
+}
+
+.bg-footer {
+  background-image: url("/images/bg-footer-top-mobile.svg");
+  height: 3.3125rem;
+}
+
+.image {
+  background-repeat: no-repeat;
+  max-width: 23.4375rem;
+}
+
+.community {
+  margin: 4rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.community h3 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+.community button {
+  margin: 1.5rem;
+}
+
+footer {
+  padding: 3rem 1.5rem 0;
+  display: flex;
+  flex-direction: column-reverse;
+  background-color: #00252e;
+  color: white;
+}
+
+.newsletter h4 {
+  text-transform: uppercase;
+  font-size: 1.05rem;
+}
+.newsletter p {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  line-height: 1.3rem;
+}
+.newsletter form {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.newsletter form input[type=text] {
+  padding: 0.75rem 0;
+  border-radius: 0.25rem;
+  border: none;
+  width: 100%;
+}
+.newsletter form button {
+  margin-top: 0.75rem;
+  padding: 0.75rem 0;
+  width: 50%;
+  border-radius: 0.25rem;
+  border: none;
+  background-color: #ff52bf;
+  color: white;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.contact {
+  margin-top: 4rem;
+}
+.contact p {
+  font-size: 0.95rem;
+  margin-top: 1rem;
+}
+.contact .phone-email {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+.contact .phone-email img {
+  width: 1rem;
+  margin-right: 1rem;
+}
+.contact .phone-email p {
+  margin-top: 0;
+}
+
+.social {
+  margin-top: 3rem;
+}
+.social a {
+  color: white;
+  margin-right: 1rem;
+}
+
+/*# sourceMappingURL=style.css.map */

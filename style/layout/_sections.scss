@@ -1,0 +1,25 @@
+.test {
+  padding: 4rem 1.5rem;
+  background-color: $very-pale-blue;
+}
+
+.container {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  p {
+    font-size: $font-size;
+    margin-top: 1.5rem;
+    text-align: center;
+    font-weight: $font-600;
+  }
+}
+
+.flowing-conversation {
+  background-color: white;
+}
+
+.your-users {
+  padding-top: 2rem;
+}

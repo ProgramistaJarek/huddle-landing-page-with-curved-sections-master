@@ -1,0 +1,70 @@
+footer {
+  padding: 3rem 1.5rem 0;
+  display: flex;
+  flex-direction: column-reverse;
+  background-color: $very-dark-cyan;
+  color: white;
+}
+
+.newsletter {
+  h4 {
+    text-transform: uppercase;
+    font-size: 1.05rem;
+  }
+  p {
+    margin-top: 1rem;
+    font-size: $font-size;
+    line-height: 1.3rem;
+  }
+  form {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    input[type="text"] {
+      padding: 0.75rem 0;
+      border-radius: 0.25rem;
+      border: none;
+      width: 100%;
+    }
+    button {
+      margin-top: 0.75rem;
+      padding: 0.75rem 0;
+      width: 50%;
+      border-radius: 0.25rem;
+      border: none;
+      background-color: $pink;
+      color: white;
+      font-size: $font-size;
+      font-weight: $font-600;
+    }
+  }
+}
+
+.contact {
+  margin-top: 4rem;
+  p {
+    font-size: $font-size;
+    margin-top: 1rem;
+  }
+  .phone-email {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    img {
+      width: 1rem;
+      margin-right: 1rem;
+    }
+    p {
+      margin-top: 0;
+    }
+  }
+}
+
+.social {
+  margin-top: 3rem;
+  a {
+    color: white;
+    margin-right: 1rem;
+  }
+}
