@@ -1,12 +1,8 @@
-header {
-  margin: 0 1.5rem;
-}
-
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 2rem 0;
+  margin: 2rem 1.5rem;
   img {
     width: 7.5rem;
   }
@@ -16,8 +12,16 @@ nav {
     border: 1px solid $pink;
     padding: 0.25rem 1rem;
     border-radius: 3rem;
-    cursor: pointer;
+    &:hover {
+      cursor: pointer;
+      background-color: $pink;
+      color: white;
+    }
   }
+}
+
+.container-fluid-header {
+  margin: 2rem 1.5rem 0;
 }
 
 .header {
@@ -33,5 +37,27 @@ nav {
   }
   img {
     margin-top: 5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .container-fluid-header {
+    margin: 6rem 1.5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .header {
+    text-align: center;
+    margin-top: 5rem;
+    h1 {
+      font-size: 2.5rem;
+    }
+    p {
+      width: 30rem;
+    }
+    img {
+      width: 66%;
+    }
   }
 }

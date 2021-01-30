@@ -1,5 +1,4 @@
 .test {
-  padding: 4rem 1.5rem;
   background-color: $very-pale-blue;
 }
 
@@ -22,4 +21,36 @@
 
 .your-users {
   padding-top: 2rem;
+}
+
+.container-fluid {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 4rem 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .container-fluid {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem;
+  }
+  .reverse {
+    flex-direction: row-reverse;
+  }
+  .img-section {
+    width: 40%;
+  }
+  .container {
+    align-items: flex-start;
+    width: 45%;
+    h3 {
+      font-size: 2rem;
+    }
+    p {
+      text-align: left;
+    }
+  }
 }

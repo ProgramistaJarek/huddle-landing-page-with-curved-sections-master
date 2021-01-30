@@ -29,3 +29,41 @@
   background-repeat: no-repeat;
   max-width: 23.4375rem;
 }
+
+@media (min-width: 376px) {
+  .bg-top-grow-together {
+    background-image: url("/images/bg-section-top-desktop-1.svg");
+    height: 10.3125rem;
+  }
+
+  .bg-bottom-grow-together {
+    background-image: url("/images/bg-section-bottom-desktop-1.svg");
+    height: 8.6875rem;
+  }
+
+  .bg-top-your-users {
+    background-image: url("/images/bg-section-top-desktop-2.svg");
+    height: 9.75rem;
+  }
+
+  .bg-bottom-your-users {
+    background-image: url("/images/bg-section-bottom-desktop-2.svg");
+    height: 8.6875rem;
+  }
+
+  .bg-footer {
+    background-image: url("/images/bg-footer-top-desktop.svg");
+    height: 9.875rem;
+  }
+
+  .image {
+    max-width: 90rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .image {
+    background-size: cover;
+    max-width: 100%;
+  }
+}
